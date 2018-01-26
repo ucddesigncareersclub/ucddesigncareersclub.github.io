@@ -37,55 +37,16 @@ a:link {
 
 /* header things */
 
-header {
-    max-height: 300px;
-    max-width: 770px;
-}
-
 header img {
     float: left;
-    margin-right: 35px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 30%;
+    height: 30%;
 }
 
 header h1 {
-    font-size: 3.4rem;
-    margin-right: 30px;
-}
-
-@media screen and (min-width: 682px) {
-    header h1 {
-        padding-top: 40px;
-    }
-}
-
-@media screen and (max-width: 760px) {
-    header img {
-        margin-right: 10%;
-    }
-    header h1 {
-        font-size: 2.6rem;
-    }
-}
-
-@media screen and (max-width: 388px) {
-    header img {
-        margin-right: 6%;
-    }
-    header h1 {
-        padding-top: 5%;
-        font-size: 2.2rem;
-    }
-}
-
-@media screen and (max-width: 345px) {
-    header img {
-        margin-left: 6%;
-        margin-right: 6%;
-    }
-    header h1 {
-        padding-top: 5%;
-        font-size: 2rem;
-    }
+    font-size: 5vw;
 }
 
 /* main things */
@@ -103,7 +64,6 @@ main {
 
 section {
     width: 90%;
-    max-width: 770px;
     margin: auto;
 }
 
@@ -118,6 +78,8 @@ nav {
 
 nav img {
     margin: 5%;
+    width: 50px;
+    height: 50px;
 }
 
 footer {
