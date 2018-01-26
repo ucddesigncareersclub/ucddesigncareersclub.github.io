@@ -1,1 +1,52 @@
+/* General Things */
 
+body {
+    font-family: sans-serif;
+}
+
+#wrapper {
+    width: 96%;
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header things */
+
+header {
+    max-height: 300px;
+}
+
+header h1 {
+    float: right;
+    font-size: 3.7rem;
+    margin-right: 20px;
+}
+
+/* main things */
+
+main {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    clear: both;
+    background-color: #21A5BF;
+    color: white;
+    border-radius: 5px;
+    line-height: 1.5rem;
+}
+
+section {
+    width: 96%;
+    max-width: 770px;
+    margin: auto;
+}
+
+nav {
+    max-width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    padding: 10px;
+}
