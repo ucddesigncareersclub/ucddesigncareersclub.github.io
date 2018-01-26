@@ -11,10 +11,35 @@ body {
     margin-right: auto;
 }
 
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #c0c6c6;
+}
+
+a:active {
+    color: #c0c6c6;
+}
+
+a:focus {
+    color: #c0c6c6;
+}
+
+a:link {
+    color: white;
+}
+
 /* header things */
 
 header {
     max-height: 300px;
+    max-width: 770px;
 }
 
 header h1 {
@@ -27,7 +52,7 @@ header h1 {
 
 main {
     margin: auto;
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 30px;
     clear: both;
     background-color: #21A5BF;
@@ -37,7 +62,7 @@ main {
 }
 
 section {
-    width: 96%;
+    width: 90%;
     max-width: 770px;
     margin: auto;
 }
@@ -49,4 +74,10 @@ nav {
     justify-content: space-evenly;
     margin-top: 20px;
     padding: 10px;
+}
+
+footer {
+    margin-top: 2%;
+    text-align: center;
+    font-size: .8rem;
 }
