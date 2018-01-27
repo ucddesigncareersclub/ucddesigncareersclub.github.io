@@ -1,7 +1,7 @@
 /* General Things */
 
 body {
-    font-family: sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 #wrapper {
@@ -55,6 +55,7 @@ header h1 {
     margin: 10%;
     margin-top: 12%;
     font-size: 8vw;
+    color: #21A5BF;
 }
 
 /* main things */
